@@ -29,16 +29,3 @@ module.exports = {
     }
   }
 };
-
-//      this.getOrFetch(id, options, function(error, success) {
-//        var self =  this;
-//        if(error) {
-//          request[id] = false;
-//
-//          if(cb) cb(error);
-//        }
-//        else {
-//          self.trigger(id);
-//          if(cb) cb(null, success);
-//        }
-//      });
