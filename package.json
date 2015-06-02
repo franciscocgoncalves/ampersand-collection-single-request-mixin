@@ -1,0 +1,53 @@
+{
+  "name": "ampersand-collection-single-request-mixin",
+  "description": "A mixin for extending ampersand-collection with single request method.",
+  "version": "0.0.1",
+  "author": "Francisco Gonçalves <francisco.goncalves@sinfo.org>",
+  "files": [
+    "ampersand-collection-single-request-mixin.js"
+  ],
+  "browserify": {
+    "transform": [
+      "ampersand-version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ampersandjs/ampersand-collection-single-request-mixin/issues"
+  },
+  "dependencies": {
+    "ampersand-events": "^1.1.1",
+    "ampersand-version": "^1.0.0",
+    "lodash.assign": "^3.0.0"
+  },
+  "devDependencies": {
+    "ampersand-collection": "^1.3.15",
+    "ampersand-model": "^4.0.2",
+    "bluebird": "^2.9.14",
+    "browserify": "^5.11.1",
+    "jshint": "^2.5.1",
+    "phantomjs": "^1.9.7-15",
+    "precommit-hook": "^1.0.2",
+    "run-browser": "^1.3.1",
+    "tap-spec": "^0.2.1",
+    "tape": "^2.14.0",
+    "tape-run": "^0.3.0"
+  },
+  "homepage": "https://github.com/ampersandjs/ampersand-collection-single-request-mixin",
+  "keywords": [
+    "ampersand",
+    "single",
+    "request",
+    "collection",
+    "underscore"
+  ],
+  "license": "MIT",
+  "main": "ampersand-collection-single-request-mixin.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ampersandjs/ampersand-collection-single-request-mixin"
+  },
+  "scripts": {
+    "start": "run-browser test/main.js",
+    "test": "browserify test/main.js | tape-run | tap-spec"
+  }
+}
