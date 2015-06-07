@@ -1,6 +1,4 @@
 /*$AMPERSAND_VERSION*/
-var assign = require('lodash.assign');
-var Events = require('ampersand-events');
 
 var request = {};
 
